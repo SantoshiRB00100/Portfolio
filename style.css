@@ -592,20 +592,66 @@ section{
   height: 160px;
 }
 
-.radial-bars .radial-bar .progress-bar{
+.radial-bars .radial-bar .progress-bar1{
   stroke-width: 10;
   stop-color: black;
   fill: transparent;
   stroke-dasharray:502;
   stroke-dashoffset: 502;
-  animation: animate-bar 1s linear forwards infinite;
+  animation: animation-bar 4s linear forwards  ;
 }
 
-@keyframes animate-bar{
+@keyframes animation-bar{
   100%{
-    stroke-dashoffset: -1;
+    stroke-dashoffset: 50;
   }
 }
+
+.radial-bars .radial-bar .progress-bar2{
+  stroke-width: 10;
+  stop-color: black;
+  fill: transparent;
+  stroke-dasharray:502;
+  stroke-dashoffset: 502;
+  animation: anim 4s linear forwards  ;
+}
+
+@keyframes anim{
+  100%{
+    stroke-dashoffset: 151;
+  }
+}
+
+.radial-bars .radial-bar .progress-bar3{
+  stroke-width: 10;
+  stop-color: black;
+  fill: transparent;
+  stroke-dasharray:502;
+  stroke-dashoffset: 502;
+  animation: ani 4s linear forwards  ;
+}
+
+@keyframes ani{
+  100%{
+    stroke-dashoffset: 101;
+  }
+}
+
+.radial-bars .radial-bar .progress-bar4{
+  stroke-width: 10;
+  stop-color: black;
+  fill: transparent;
+  stroke-dasharray:502;
+  stroke-dashoffset: 502;
+  animation: animi 4s linear forwards ;
+}
+
+@keyframes animi{
+  100%{
+    stroke-dashoffset: 75;
+  }
+}
+
 
 circle{
   stroke-width: 10;
